@@ -109,7 +109,7 @@ def gen_mappings(sym):
     }
 
     #variable indexes
-    vidx = [len(primes)-1] * 3
+    vidx = [6,6,6]
 
     for s in sym:
         if s not in mappings:
