@@ -131,7 +131,7 @@ def gen_exp(formula):
 
 def main(argv):
     print("Welcome to Godelizer!")
-    print("This program will convert PM formulae into Godel numbers.")
+    print("This program will convert P formulae into Godel numbers.")
     print("Syntax: ")
     print("0 - Nought")
     print("f - Successor")
@@ -144,7 +144,7 @@ def main(argv):
     print("AA - Variables of the third type are completely upper case")
 
     while True:
-        formula = input("Enter a PM formula: ")
+        formula = input("Enter a P formula: ")
         exp = gen_exp(formula)
         print(f"The arithmetic formula to generate the Godel number is: {exp}")
         print(f"The Godel number of the formula is: {eval(exp)}")
