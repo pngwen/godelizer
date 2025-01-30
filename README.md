@@ -1,4 +1,4 @@
-# goedelizer
+# godelizer
 Compute the Godel number of any valid Godelian formula! (Or of any invalid one. It doesn't judge!)
 
 The numbering system used here is the one described in Kurt Godel's 1930 paper,
